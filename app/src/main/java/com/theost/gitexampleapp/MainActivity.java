@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // My editions
+
         findViewById(R.id.button).setOnClickListener(view -> showToast());
     }
 
